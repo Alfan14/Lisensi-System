@@ -1,0 +1,112 @@
+{
+    "license_data": [
+        {
+            "id": 0,
+            "name": "John",
+            "type_of_subscribe": "Trial",
+            "type_off_license": 4,
+            "aktivasi_token": "81f5835f-e3d3-4275-a68a-4c74c1208b6f",
+            "activated_at": "2025-01-11 08:27:47",
+            "expires_at": "2025-01-18 08:27:47",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-NC-SA",
+                "desc": "BY : credit must be given to the creator.SA : Adaptations must be shared under the same terms.\nNC : Only noncommercial uses of the work are permitted.",
+                "by": true,
+                "sa": true,
+                "nc": true,
+                "nd": false
+            }
+        },
+        {
+            "id": 1,
+            "name": "Kayla",
+            "type_of_subscribe": "Subscribe",
+            "type_off_license": 4,
+            "aktivasi_token": "47821158-8cab-4e1b-9ffb-640c0432c4f1",
+            "activated_at": "2025-01-11 08:41:20",
+            "expires_at": "2025-02-10 08:41:20",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-NC-SA",
+                "desc": "BY : credit must be given to the creator.SA : Adaptations must be shared under the same terms.\nNC : Only noncommercial uses of the work are permitted.",
+                "by": true,
+                "sa": true,
+                "nc": true,
+                "nd": false
+            }
+        },
+        {
+            "id": 2,
+            "name": "Chika",
+            "type_of_subscribe": "Subscribe",
+            "type_off_license": 2,
+            "aktivasi_token": "9672f0e3-54fb-4de2-acf0-08cc636b8642",
+            "activated_at": "2025-01-11 08:41:39",
+            "expires_at": "2025-02-10 08:41:39",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-NC-SA",
+                "desc": "BY : credit must be given to the creator.SA : Adaptations must be shared under the same terms.\nNC : Only noncommercial uses of the work are permitted.",
+                "by": true,
+                "sa": true,
+                "nc": true,
+                "nd": false
+            }
+        },
+        {
+            "id": 3,
+            "name": "Jane",
+            "type_of_subscribe": "Forever",
+            "type_off_license": 5,
+            "aktivasi_token": "6bfd5e08-137f-4b52-807e-28d6d5209d5e",
+            "activated_at": "2025-01-11 08:41:52",
+            "expires_at": "2124-12-18 08:41:52",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-NC-SA",
+                "desc": "BY : credit must be given to the creator.SA : Adaptations must be shared under the same terms.\nNC : Only noncommercial uses of the work are permitted.",
+                "by": true,
+                "sa": true,
+                "nc": true,
+                "nd": false
+            }
+        },
+        {
+            "id": 4,
+            "name": "Olive",
+            "type_of_subscribe": "Forever",
+            "type_off_license": 5,
+            "aktivasi_token": "ca5f6f5a-95d7-4a88-9947-cd92457a8172",
+            "activated_at": "2025-01-11 16:55:19",
+            "expires_at": "2124-12-18 16:55:19",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-ND",
+                "desc": "BY : credit must be given to the creator.ND : No derivatives or adaptations of the work are permitted.",
+                "by": true,
+                "sa": false,
+                "nc": false,
+                "nd": true
+            }
+        },
+        {
+            "id": 5,
+            "name": "Daniel",
+            "type_of_subscribe": "Subscribe",
+            "type_off_license": 3,
+            "aktivasi_token": "860701b3-bfb1-4785-9519-b2f34a8d56c0",
+            "activated_at": "2025-01-11 17:10:25",
+            "expires_at": "2025-02-10 17:10:25",
+            "active": true,
+            "license": {
+                "type": "LMS-BY-NC",
+                "desc": "BY : credit must be given to the creator.NC : Only noncommercial uses of the work are permitted.",
+                "by": true,
+                "sa": false,
+                "nc": true,
+                "nd": false
+            }
+        }
+    ]
+}
