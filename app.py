@@ -220,7 +220,7 @@ def option3():
         if item.get('aktivasi_token') == search:
             new1.remove(item)
             break
-    with open('license.json', 'w') as f:
+    with open('data.json', 'w') as f:
         json.dump(data, f)
 
 def option4():
@@ -237,7 +237,7 @@ def option4():
 def option5():
     with open('data.json','r' ) as f:
         data = json.load(f)
-        result=bubbleSort(data,'id')
+        result=bubbleSort(data,'name')
         print(json.dumps(result, indent=4))
 # Menu
 def main():

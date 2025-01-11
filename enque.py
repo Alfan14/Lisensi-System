@@ -4,6 +4,7 @@ import json
 import datetime
 import uuid
 
+# Untuk membawa data
 class Node:
     id_obj = itertools.count()
     def __init__(self ,name,subs,license_type,activated , expired ,token, active ,license):
