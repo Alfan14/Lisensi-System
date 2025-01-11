@@ -23,6 +23,7 @@ q = Queue()
 
 def menu():
     print("Menu Lisensi:")
+    print("0.Menampilkan lisensi")
     print("1.Mengkontrak lisensi ")
     print("2.Cek Aktivasi lisensi ")
     print("3.Menonaktifkan lisensi ")
@@ -90,6 +91,25 @@ def display_table(data):
 def wrap_text(text, width=60):
     return "\n".join(textwrap.wrap(text, width=width))
 
+def option0():
+    with open('data.json', 'r') as file:
+        hasil = json.load(file)
+        item = hasil["license_data"]
+        table_data = [
+            [
+                data['id'], data['name'], data['type_of_subscribe'] ,data['aktivasi_token'], data['activated_at'], data['expires_at']
+            ]
+            for data in item
+        ]
+
+        headers = [
+            "Id", "Name", "TypeOfSubscribe", "TypeOffLicense", "AktivasiToken", 
+            "ActivatedAt", "ExpiresAt"
+        ]
+
+        table = tabulate.tabulate(table_data, headers=headers, tablefmt="grid")
+
+        print(table)
 def option1():
  while True:
         name = str(input("Masukkan namamu: "))
@@ -218,12 +238,14 @@ def option5():
     with open('data.json','r' ) as f:
         data = json.load(f)
         result=bubbleSort(data,'id')
-        display_table(result)
+        print(json.dumps(result, indent=4))
 # Menu
 def main():
     menu()
     pilihan= choice()
-    if pilihan == 1:
+    if pilihan == 0:
+        option0()
+    elif pilihan == 1:
         option1()
     elif pilihan ==2:
         option2()
